@@ -1,28 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Provider } from "react-redux";
-
-import { registerServices, serviceManager } from "services/manager";
 import * as serviceWorker from "./serviceWorker";
-import configureStore from "store";
 import Routes from "routes";
+import Root from "./Root";
 
 import "./index.scss";
 
-const settings = {
-  api: {
-    baseUrl: ""
-  }
-};
-
-registerServices(settings);
-
-const store = configureStore({}, serviceManager);
-
 ReactDOM.render(
-  <Provider store={store}>
+  <Root>
     <Routes />
-  </Provider>,
+  </Root>,
   document.getElementById("root")
 );
 

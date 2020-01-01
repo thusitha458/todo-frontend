@@ -1,7 +1,7 @@
 import {
   registerGlobalServices,
   serviceManager
-} from "shared/services/manager";
+} from "../shared/services/manager";
 
 import AppService from "./AppService";
 

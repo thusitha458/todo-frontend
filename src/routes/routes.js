@@ -1,3 +1,3 @@
-import generalRoutes from "modules/General/routes";
+import generalRoutes from "../modules/General/routes";
 
 export default [...generalRoutes];

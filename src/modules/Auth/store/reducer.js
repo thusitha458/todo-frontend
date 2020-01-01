@@ -1,5 +1,5 @@
 // @flow
-import { type Action } from "shared/types/ReducerAction";
+import { type Action } from "../../../shared/types/ReducerAction";
 
 export type AuthState = {
   loading: boolean,

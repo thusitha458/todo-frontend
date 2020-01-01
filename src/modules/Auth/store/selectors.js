@@ -1,5 +1,5 @@
 // @flow
-import type { ApplicationState } from "store/reducers";
+import type { ApplicationState } from "../store/reducers";
 
 export const isAuthenticated = (state: ApplicationState) => {
   return false;

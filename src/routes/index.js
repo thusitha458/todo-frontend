@@ -4,14 +4,14 @@ import { connect } from "react-redux";
 import { Switch } from "react-router-dom";
 import { ConnectedRouter } from "connected-react-router";
 
-import { isAuthenticated, isUserInitiated } from "modules/Auth/store/selectors";
+import { isAuthenticated, isUserInitiated } from "../modules/Auth/store/selectors";
 
 // import components
 import routes from "./routes";
 import PrivateRoute from "./Private";
 import PublicRoute from "./Public";
-import Loader from "components/loader";
-import { history } from "store";
+import Loader from "../components/loader";
+import { history } from "../store";
 
 type RoutesProps = {
   isAuthenticated: Boolean,
