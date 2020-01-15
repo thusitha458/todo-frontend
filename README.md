@@ -3,7 +3,8 @@
 A simple todo application frontend.
 * ReactJs
 * Redux
-* Redux-Saga
+* Redux-Thunk
+* ReselectJs
 * Enzyme
 
 ## Available Scripts
