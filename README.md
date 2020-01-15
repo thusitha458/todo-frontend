@@ -1,3 +1,11 @@
+# Todo Frontend
+
+A simple todo application frontend.
+* ReactJs
+* Redux
+* Redux-Saga
+* Enzyme
+
 ## Available Scripts
 
 In the project directory, you can run:
